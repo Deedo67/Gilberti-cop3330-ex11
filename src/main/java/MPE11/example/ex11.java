@@ -33,4 +33,6 @@ public class ex11 {
         //Output
         System.out.println(outputString);
     }
+    //main method end
 }
+//class end
