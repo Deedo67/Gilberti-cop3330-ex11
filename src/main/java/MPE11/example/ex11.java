@@ -21,14 +21,14 @@ public class ex11 {
         String strrate = in.nextLine();
 
         //string conversion
-        double euro = Double.parseDouble(streuro);
+        int euro = Integer.parseInt(streuro);
         double rate = Double.parseDouble(strrate);
 
         //math
         double dollar = rate * euro;
 
         //output string
-        String outputString = String.format("%.2f", euro)+" euros at an exchange rate of "+String.format("%.4f", rate)+" is\n"+String.format("%.2f", dollar)+" U.S. dollars.";
+        String outputString = euro+" euros at an exchange rate of "+String.format("%.4f", rate)+" is\n"+String.format("%.2f", dollar)+" U.S. dollars.";
 
         //Output
         System.out.println(outputString);
